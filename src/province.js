@@ -5,10 +5,7 @@ function Province( props ){
         <div>
             <h2>There are four Provinces of Pakistan </h2>
             <ol>
-                <li> {props.provinces[0]} </li>
-                <li> {props.provinces[1]} </li>
-                <li> {props.provinces[2]} </li>
-                <li> {props.provinces[3]} </li>
+                <li> {props.province_name} </li>
             </ol>
         </div>
     )
