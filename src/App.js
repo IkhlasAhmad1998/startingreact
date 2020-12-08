@@ -7,10 +7,11 @@ function App() {
       <header className="App-header">
         <div>
           <h1>Pakistan</h1>
-          <Province provinces="KPK" />
-          <Province provinces="Balochistan" />
-          <Province provinces="Sindh" />
-          <Province provinces="Punjab" />
+          <h2>There are four Provinces of Pakistan </h2>
+          <Province province_name="KPK" />
+          <Province province_name="Balochistan" />
+          <Province province_name="Sindh" />
+          <Province province_name="Punjab" />
         </div>
       </header>
     </div>
